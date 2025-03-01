@@ -10,6 +10,9 @@ p{
 }
 body{
     background-color: rgb(122, 190, 4, 0.4);
+    line-height: 45px;
+    font-size: 20px;
+    text-align: center;
 }
 a{
     color: #2f8d1a;
