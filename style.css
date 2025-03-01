@@ -2,10 +2,11 @@ h1{
     color: #3e842e;
     text-align: center;
 }
-li{
+p{
     color: #000000;
     line-height: 45px;
     font-size: 20px;
+    text-align: center;
 }
 body{
     background-color: rgb(122, 190, 4, 0.4);
