@@ -3,7 +3,14 @@ h1{
     text-align: center;
 }
 li{
-    color: #57bd40;
+    color: #000000;
     line-height: 45px;
     font-size: 20px;
+}
+body{
+    background-color: rgb(122, 190, 4, 0.4);
+}
+a{
+    color: #2f8d1a;
+    text-decoration: none;
 }
