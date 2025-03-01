@@ -1,6 +1,9 @@
 h1{
-    text-align: center
+    color: #3e842e;
+    text-align: center;
 }
 li{
-    color: #2fff00af;
+    color: #57bd40;
+    line-height: 45px;
+    font-size: 20px;
 }

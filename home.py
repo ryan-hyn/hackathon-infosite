@@ -1,7 +1,11 @@
 import math
 
-cost_per_sqft = 150.00
-cost_of_labor = 1.40
-cost_of_gc = 1.15
-
-print(round(cost_of_labor*cost_of_gc*cost_per_sqft,2))
+sqft = int(input("enter the number of square feet: "))
+MA_cost_per_sqft = sqft*333200
+cost_per_sqft = MA_cost_per_sqft*43560
+#cost_of_labor = pass
+#cost_of_gc = pass
+#cost_of_materials = pass
+def hug():
+    print("$"+str(round(cost_per_sqft,2))+" per square foot")
+hug()
