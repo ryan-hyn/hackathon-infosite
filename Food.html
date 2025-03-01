@@ -1,10 +1,94 @@
 <html>
     <link rel="stylesheet" type="text/css" href="style.css"/>
-    <h1>
-        Food waste
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap; /* Allows wrapping */
+            gap: 20px; /* Space between columns */
+            justify-content: center; /* Centers columns */
+        }
+        .column {
+            flex: 1; /* Equal width columns */
+            min-width: 300px; /* Prevents columns from getting too small */
+            padding: 20px;
+            border: 0px solid #ccc;
+            text-align: center;
+
+        }
+        .full-width {
+            flex-basis: 100%; /* Forces it to take full width */
+        }
+        p.big {
+            line-height: 1.8;
+        }
+    </style>
+    
+    <h1 style="text-align: center;">
+        Food Waste
     </h1>
     <title>
-        Food waste
+        Food Waste
     </title>
-    <p><a href="home.html">home link</a></p>
+
+<div class="container">
+    <div class="column">
+        <h2>Food waste is food that is discarded or not consumed, even though it is still safe to eat.</h2>
+        <h3>This matters because...   </h3>
+            <p class="big"> In the U.S., about 40% of food is wasted, costing $218 billion annually.
+            </p>
+            <p> Wasted food releases harmful greenhouse gases when it decomposes in landfills and it contributes to climate change.
+            </p>
+            <p> Reducing waste by just 15% could feed over 25 million people.
+            </p>    
+            <p>
+                
+            </p>
+
+    </div>
+    <div class="column">
+        <h2>Why does this matter?</h2>
+        <h3> Climate change matters because it affects nearly every part of our lives.
+        </h3>
+        <ol>
+            <li>
+                Your future 🌎 - A hotter planet means more natural disasters, food shortages, and economic struggles.
+            </li>
+            <li>
+                Health risks 🏥 - More heatwaves and pollution lead to breathing problems, disease outbreaks, and other health issues.
+            </li>
+
+            <li>
+                Your environment 🐻 - Wildlife struggles as habitats disappear and oceans become more acidic.
+            </li>
+
+            <li>
+                Society 🌍 - Climate change worsens inequality, forcing people to leave their homes due to disasters and food shortages.
+            </li>
+
+        </ol>
+    </div>
+    <div class="column full-width"> 
+        <h2>What are things that I can do to help?</h2> 
+        
+            <p>
+                Switch to renewable energy (solar, wind, hydro) instead of fossil fuels.
+            </p>
+            <p>
+                Improve energy efficiency (better insulation, LED lighting, efficient appliances).
+            </p>
+
+            <p> Being conscious of waste and reducing your own production ( Reduce, reuse, and recycle to minimize waste)     </p>
+            <p>
+                Spread awareness and engage in climate activism.
+            </p>
+    </div>
+
+</div>
+
+    <ol>
+        <p style="text-align: center;"><a href="https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts">Reference link</a></p>
+
+        <p style="text-align: center;"><a href="home.html">home link</a></p>
+
+    </ol>
 </html>
